@@ -1,0 +1,12 @@
+{
+  "name": "fight-rl",
+  "version": "0.1.0",
+  "description": "KOF-style procedural fighting game with a reinforcement-learning interface",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node tools/serve.js",
+    "rl-server": "node rl/server.js",
+    "test": "node tools/test_sim.js"
+  }
+}
